@@ -10,4 +10,6 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1c71ea25a42f6a94ebf13634e7a4d29e, type: 2}
+    com.needle.xr.arsimulation.PlayerSettings: {fileID: 11400000, guid: 2fbd8077bb5b6744b85369305912e903, type: 2}
+    com.needle.xr.management.arsimulation_loader: {fileID: 11400000, guid: 0e091da2d6b27de4fb435d4f6091acb8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6640aed1c9f14304bb26d9adf9b643cf, type: 2}

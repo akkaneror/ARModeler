@@ -11,6 +11,7 @@ public class ARPlacement : MonoBehaviour {
     private Pose PlacementPose;
     private bool placementPoseIsValid;
     private GameObject spawnedObject;
+    public Camera camera;
 
     private void Start() {
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
@@ -39,7 +40,7 @@ public class ARPlacement : MonoBehaviour {
     }
 
     private void UpdatePlacementPose() {
-        var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+        var screenCenter = camera.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
         var hits = new List<ARRaycastHit>();
         aRRaycastManager.Raycast(screenCenter, hits, TrackableType.Planes);
 
