@@ -9,7 +9,6 @@
     }
   ],
   "dependencies": {
-    "com.needle.xr.arsimulation": "1.3.0",
     "com.unity.collab-proxy": "1.5.7",
     "com.unity.device-simulator": "3.0.1-preview",
     "com.unity.ide.rider": "2.0.7",
