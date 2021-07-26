@@ -255,26 +255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33a551d941352274bb0ffea19b1f1f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
-  Prefabs:
-  - {fileID: 7455699884963896538, guid: ddfb2bfe0c3c42642a77766b21048540, type: 3}
-  - {fileID: 3459187732332332595, guid: 220d6b488b6d163469ab8892e4daa848, type: 3}
-  - {fileID: 8408329065425708767, guid: 56af3206ecfbaf94e9f1cf3ef5d4fc9f, type: 3}
-  - {fileID: 7077253713881873297, guid: b510b2339afad434ea3b9279bbe43d07, type: 3}
-  - {fileID: 7373286487760859560, guid: 518b1eca5e81efa419cc9f707554f59a, type: 3}
-  - {fileID: 2248411116996077651, guid: 3dc237d2bb9e8914386866d5aacc90e4, type: 3}
-  - {fileID: 6816211932471296654, guid: 9ac6a34007933224fbe25ce881594888, type: 3}
-  - {fileID: 6533591378597551762, guid: cadd2a2a1170e044e975849dad927a6d, type: 3}
-  - {fileID: 6496631578559045498, guid: 1b5dcb6ae75f5d24cb81c58a772bc678, type: 3}
-  - {fileID: 8105227989220229492, guid: 3f2fee09d51d7184e829dcf31256f7e4, type: 3}
-  - {fileID: 1348366933430991607, guid: 9eec01469ed4c4d43b6ecae0c35b1223, type: 3}
-  - {fileID: 1512457429632030671, guid: 2f03f3a162fd0d24389f92f0a3ef46a1, type: 3}
-  - {fileID: 3714276559539932009, guid: 1ea68dbeffac3574387f0dedd6d1b7b1, type: 3}
-  - {fileID: 3888834709876270576, guid: 6882fa030597e4b4db76333a12164865, type: 3}
-  - {fileID: 4978763087173924554, guid: 5fe34d9de64dc004bb27713e0b6f417d, type: 3}
-  old_prefab: {fileID: 0}
-  randomRotation: 1
-  randomScale: {x: 0.8, y: 1.1}
 --- !u!1 &188722144
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,10 +418,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cf238348b474f71b4c5ad0e5f8d27b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 2
-  classification: 0
-  allowMerging: 0
-  allowRuntimeUpdate: 1
 --- !u!4 &221041331
 Transform:
   m_ObjectHideFlags: 0
@@ -485,7 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5166de6390e786d4ea5cf8701c7265f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arObjectToSpawn: {fileID: 3827415103831724882, guid: 457ef1d307cd3834d96fe20b82a42fd0, type: 3}
+  arObjectToSpawn: {fileID: 342771656678391339, guid: ca2e5fc08ea2fa341a1adbc54547a557, type: 3}
   placementIndicator: {fileID: 40919614}
   camera: {fileID: 259715464}
 --- !u!4 &223974228
@@ -741,10 +717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36eacd99733f4a38ba3934cc5ce7615e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSensibility: 1
-  rotationSensibility: 5
-  interpolation: 0.1
-  setTransformDirectly: 1
 --- !u!114 &259715470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,61 +729,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83af1ef9f81407294fee96a5ab3477d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TrackingState: 2
-  DisplayMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  EstimateLight: 1
-  AdaptationDuration: 2
-  SamplesPerLight: 3
-  SamplesPerDirectionalLight: 10
-  OcclusionFactor: 1
-  RandomAngleRange: 50
-  SunlightBias: 1
-  IntensityFactor: 1
-  OverrideLightData: {fileID: 0}
-  SphericalHarmonicsL2:
-    sh[ 0]: 1
-    sh[ 1]: 0
-    sh[ 2]: 0
-    sh[ 3]: 0
-    sh[ 4]: 0
-    sh[ 5]: 0
-    sh[ 6]: 0
-    sh[ 7]: 0
-    sh[ 8]: 0
-    sh[ 9]: 1
-    sh[10]: 0
-    sh[11]: 0
-    sh[12]: 0
-    sh[13]: 0
-    sh[14]: 0
-    sh[15]: 0
-    sh[16]: 0
-    sh[17]: 0
-    sh[18]: 1
-    sh[19]: 0
-    sh[20]: 0
-    sh[21]: 0
-    sh[22]: 0
-    sh[23]: 0
-    sh[24]: 0
-    sh[25]: 0
-    sh[26]: 0
 --- !u!1 &375083696
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,11 +833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9163c8257db640348740e7b4c04f41db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updatePointsImmediately: 0
-  randomPointsShape: 0
-  randomSeed: 1907685376
-  randomPointsCount: 100
-  drawGizmos: 1
 --- !u!4 &566756556
 Transform:
   m_ObjectHideFlags: 0
