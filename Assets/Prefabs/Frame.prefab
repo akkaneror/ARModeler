@@ -1231,10 +1231,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69663f5fbe3d5140b18ab08ce1354cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleMinValue: 0
-  scaleMaxValue: 0
+  scaleMinValue: 0.2
+  scaleMaxValue: 0.5
   rotMinValue: 0
-  rotMaxValue: 0
+  rotMaxValue: 360
 --- !u!1 &342771656840404083
 GameObject:
   m_ObjectHideFlags: 0
